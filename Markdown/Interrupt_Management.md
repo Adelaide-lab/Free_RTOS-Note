@@ -117,4 +117,6 @@ xSemaphoreCreateMutex() API函数：
 
 ### 死锁
 
+biru
+
 ### 守门员任务
