@@ -20,7 +20,7 @@
 
 2.读，改，和写操作
 
-![rtos_3](Illustartion/../../Illustration/rtos_3.jpg)
+![rtos_3](Illustration/rtos_3.jpg)
 
 这是ARM7的汇编指令，其C代码是将PORTA的值与0x01相或，再将值赋给PORTA。
 
@@ -38,10 +38,10 @@
 
 3.非原子操作访问变量
 
-![rtos_4](Illustartion/../../Illustration/rtos_4.jpg)
+![rtos_4](Illustration/rtos_4.jpg)
 
 4.函数的再调用
-![rtos_5](Illustartion/../../Illustration/rtos_5.jpg)
+![rtos_5](Illustration/rtos_5.jpg)
 
 ---
 
@@ -91,7 +91,7 @@ FreeRTOS中提供了几个特性可以用来实现互斥锁，但是最佳的方
 
 互斥量可以看做是互斥锁的标志量（token）。一个任务如果想访问资源必须要先持有标志量，当任务结束资源访问后必须将标志量归还，只有当标志量归还后其他的任务才可以获得标志量和访问共享资源。
 
-![rtos_6](Illustartion/../../Illustration/rtos_6.jpg)
+![rtos_6](Illustration/rtos_6.jpg)
 
 xSemaphoreCreateMutex() API函数：
 
